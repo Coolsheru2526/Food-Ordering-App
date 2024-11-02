@@ -95,7 +95,7 @@ public class IngredientsServiceImplementation implements IngredientsService {
 
 
     @Override
-    public IngredientsItem updateStoke(Long id) throws Exception {
+    public IngredientsItem updateStock(Long id) throws Exception {
         Optional<IngredientsItem> item=ingredientsItemRepository.findById(id);
         if(item.isEmpty()) {
             throw new Exception("ingredient not found with id "+item);
