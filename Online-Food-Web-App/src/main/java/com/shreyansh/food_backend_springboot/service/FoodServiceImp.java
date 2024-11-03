@@ -6,12 +6,14 @@ import com.shreyansh.food_backend_springboot.model.Restaurant;
 import com.shreyansh.food_backend_springboot.repository.FoodRepository;
 import com.shreyansh.food_backend_springboot.request.CreateFoodRequest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Service
 public class FoodServiceImp implements FoodService{
 
     @Autowired
