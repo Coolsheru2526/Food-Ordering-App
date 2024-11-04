@@ -50,14 +50,14 @@ const Restaurant = () => {
             alt=""
           />
             </Grid2>
-            <Grid2 item xs={12} lg={6}>
+            <Grid2 item size={{xs:12,lg:6}}>
             <img
             className="w-full h-[40vh] object-cover"
             src={restaurant.restaurant?.images[1]}
             alt=""
           />
             </Grid2>
-            <Grid2 item xs={12} lg={6}>
+            <Grid2 item size={{xs:12,lg:6}}>
             <img
             className="w-full h-[40vh] object-cover"
             src={restaurant.restaurant?.images[2]}
