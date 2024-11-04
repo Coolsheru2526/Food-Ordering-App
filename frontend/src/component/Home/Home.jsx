@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import RestaurantCard from "../Restaurant/RestaurantCard";
+import Auth from "../Auth/Auth";
 
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Auth/>
     </div>
   );
 };
